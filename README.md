@@ -1,12 +1,13 @@
-\# CRN Product Assessment API
+### CRN Product Assessment API
 
-
+### Swagger Home
+![Swagger Home](Screenshots/01-Swagger-Home.png)
 
 ASP.NET Core 8 Web API technical assessment project for Product CRUD operations using Clean Architecture, Entity Framework Core, SQL Server, Repository Pattern, DTO, FluentValidation, and Global Exception Middleware.
 
 
 
-\## Technologies Used
+### Technologies Used
 
 
 
@@ -34,7 +35,7 @@ ASP.NET Core 8 Web API technical assessment project for Product CRUD operations 
 
 
 
-\## Project Architecture
+### Project Architecture
 
 
 
@@ -58,7 +59,7 @@ Domain Layer
 
 
 
-\## Project Structure
+### Project Structure
 
 
 
@@ -72,7 +73,7 @@ CRNProductAssessment.Infrastructure
 
 
 
-\## Features
+### Features
 
 
 
@@ -104,7 +105,7 @@ CRNProductAssessment.Infrastructure
 
 
 
-\## API Endpoints
+### API Endpoints
 
 
 
@@ -122,21 +123,21 @@ DELETE /api/Product/{id}
 
 FluentValidation is used to validate incoming request DTOs before processing business logic.
 
-\## CreateProductDto Validation
+### CreateProductDto Validation
 
 - ProductName is required.
 - ProductName cannot exceed 255 characters.
 - CreatedBy is required.
 - CreatedBy cannot exceed 100 characters.
 
-\## UpdateProductDto Validation
+### UpdateProductDto Validation
 
 - ProductName is required.
 - ProductName cannot exceed 255 characters.
 - ModifiedBy is required.
 - ModifiedBy cannot exceed 100 characters.
 
-\## Business Rule
+### Business Rule
 
 
 
@@ -162,11 +163,11 @@ Example response:
 
 
 
-\## Database Tables
+### Database Tables
 
 
 
-Product
+### Product
 
 
 
@@ -184,7 +185,7 @@ Product
 
 
 
-Item
+### Item
 
 
 
@@ -196,7 +197,7 @@ Item
 
 
 
-\## How to Run
+### How to Run
 
 
 

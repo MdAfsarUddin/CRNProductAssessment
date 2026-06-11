@@ -118,7 +118,23 @@ PUT /api/Product/{id}
 
 DELETE /api/Product/{id}
 
+### Validation Rules
 
+FluentValidation is used to validate incoming request DTOs before processing business logic.
+
+\## CreateProductDto Validation
+
+- ProductName is required.
+- ProductName cannot exceed 255 characters.
+- CreatedBy is required.
+- CreatedBy cannot exceed 100 characters.
+
+\## UpdateProductDto Validation
+
+- ProductName is required.
+- ProductName cannot exceed 255 characters.
+- ModifiedBy is required.
+- ModifiedBy cannot exceed 100 characters.
 
 \## Business Rule
 

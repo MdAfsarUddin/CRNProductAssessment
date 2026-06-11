@@ -208,27 +208,27 @@ https://localhost:44354/swagger
 
 
 
-\## Screenshots
+## Screenshots
 
+### Swagger Home
+![Swagger Home](Screenshots/01-Swagger-Home.png)
 
+### Get All Products
+![Get All Products](Screenshots/02-Get-All-Products.png)
 
-Screenshots are available in the `Screenshots` folder:
+### Get Product By Id
+![Get Product By Id](Screenshots/03-Get-Product-By-Id.png)
 
+### Create Product
+![Create Product](Screenshots/04-Create-Product.png)
 
+### Update Product
+![Update Product](Screenshots/05-Update-Product.png)
 
-\* Swagger Home
+### Delete Product
+![Delete Product](Screenshots/06-Delete-Product.png)
 
-\* Get All Products
-
-\* Get Product By Id
-
-\* Create Product
-
-\* Update Product
-
-\* Delete Product
-
-\* Delete Restriction Validation
-
+### Delete Restriction Validation
+![Delete Restriction](Screenshots/07-Delete-Restriction.png)
 
 

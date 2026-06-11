@@ -137,34 +137,22 @@ FluentValidation is used to validate incoming request DTOs before processing bus
 - ModifiedBy is required.
 - ModifiedBy cannot exceed 100 characters.
 
-### Business Rule
+## Exception Handling
 
+Global Exception Middleware is implemented to handle application exceptions in a centralized way.
 
-
-A product cannot be deleted if related items exist.
-
-
+Instead of writing repeated try-catch blocks inside every controller action, exceptions are handled globally and returned as a structured JSON response.
 
 Example response:
 
-
-
 ```json
-
 {
-
-&#x20; "success": false,
-
-&#x20; "message": "This product cannot be deleted because related items exist."
-
+  "success": false,
+  "message": "This product cannot be deleted because related items exist."
 }
-
-```
-
 
 
 ### Database Tables
-
 
 
 ### Product
